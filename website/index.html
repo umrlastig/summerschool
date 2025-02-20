@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
    <!-- Required meta tags -->
    <meta charset="utf-8">
@@ -21,37 +21,86 @@
 </head>
 <body>
 
-<div class="container-fluid p-5 bg-dark text-white text-center">
-  <h1>LASTIG SummerSchool 2025</h1>
-  <p>· Photogrammetry · Remote-Sensing · GIS · </p>
+
+
+<div class="container-fluid p-5 bg-dark text-white text-align-left " >
+	<div class="bg"
+                    style="background-image: url('img/habillage_droite.png'); 
+                        background-size: 50%; 
+                        background-position: right; 
+                        background-repeat: no-repeat ;
+                        height: 20vh;">
+<div style="padding-left: 4em">
+<h1>LASTIG SummerSchool 2025</h1>
+	<div style="padding-left: 1em">
+  <p> Photogrammétrie · traces GPS · SIG 3D  </p>  
+  <p> 25 Août - 29 Août 2025
+  <p>Champs sur Marne, FRANCE</p>
+  </div>
+  </div>
+</div>
+
+</div><!-- bandeau haut -->
+
+
+
+<div class="row">
+<div class="col-sm-9">
+<div class="container mt-5">
+	<h4 class= "display-6">
+		L'école 
+	</h4>
+
+	
+</div>
+
+
+
+
+<div class="container mt-5">
+	<h4 class= "display-6">
+		Inscription & Tarifs 
+	</h4>
+
+
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Catégorie</th>
+        <th>Tarif</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Étudiant·e et jeune chercheur·se (Master, PhD, postdoc)</td>
+        <td>  150 €</td>
+      
+      </tr>
+      <tr>
+        <td>Chercheur·se (permanent·e) </td>
+        <td>250€</td>
+      
+      </tr>
+      <tr>
+        <td>Professionel·le </td>
+        <td> 450€</td>
+      
+      </tr>
+    </tbody>
+  </table>
+
+	écrire à  <a href="mailto:titi@toto.fr">titi@toto.fr</a> 
+
+
 </div>
 
 
 
 <div class="container mt-5">
 	<h4 class= "display-6">
-		School overview
+		Programme 
 	</h4>
-
-	The LASTIG Summerschool is about XXX adn YYY including bits of ZZZ.
-
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 </div>
-
-
-
-<div class="container mt-5">
-	<h4 class= "display-6">
-		inscrpition
-	</h4>
-
-	The LASTIG Summerschool is about XXX adn YYY including bits of ZZZ.
-
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</div>
-
 
 
 
@@ -67,7 +116,7 @@
 			
 		</ul>
 	</div> 
-</div> <!-- dropdown comittee button block -->
+</div> <!-- dropdown teachers button block -->
 </div>
 
 
@@ -85,13 +134,33 @@
 
 
 
+  </div>
+ 
+</div> <!--corps principal page-->
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Access</h3>
-      <br>
-      6-8 Avenue Blaise Pascal
+
+
+<div class="container-fluid p-5 bg-dark text-white text-align-left " >
+	<hr>
+</div>
+
+
+<div class="container-fluid p5">
+<div class="row">
+    <div class="col-sm-6 ">
+      <h3>Adresse & Contact</h3>
+</div>
+
+   <div class="col-sm-6 ">
+      <h3>Accès au site</h3>
+</div>
+
+</div>
+<div class="row">
+<div class="col-sm-3" style="padding-left: 3em; padding-top:1em;">
+      <p><a href="mailto:&#x6C;&#x61;&#x73;&#x74;&#x69;&#x67;&#x2E;&#x73;&#x75;&#x6D;&#x6D;&#x65;&#x72;&#x2E;&#x73;&#x63;&#x68;&#x6F;&#x6F;&#x6C;&#x40;&#x65;&#x6E;&#x73;&#x67;&#x2E;&#x65;&#x75;">
+   &#x6C;&#x61;&#x73;&#x74;&#x69;&#x67;&#x2E;&#x73;&#x75;&#x6D;&#x6D;&#x65;&#x72;&#x2E;&#x73;&#x63;&#x68;&#x6F;&#x6F;&#x6C;&#x40;&#x65;&#x6E;&#x73;&#x67;&#x2E;&#x65;&#x75;</a>	</p>
+            6-8 Avenue Blaise Pascal<br>
 		Cité Descartes<br>
 		Champs-sur-Marne<br>
 		77455 Marne la Vallée<br>
@@ -100,8 +169,8 @@
 
     </div>
 
-    <div class="col-sm-4">
-  <h3>Map</h3>
+    <div class="col-sm-3" style="padding-right:3em">
+  
       <div id="map"></div>
       <script type="text/javascript">
 	var map = L.map('map').setView([48.841909,2.587302], 17);
@@ -113,31 +182,59 @@
 	.bindPopup('ENSG School,<br> Univ. Gustave Eiffel Campus')
     .openPopup();
 </script>
-    </div>
-
-
-
-
-
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-
-
-
-
-<div class="container mt-5 bg-dark">
-	<center>
-<img src="img/logoENSG_small.jpg" height="50em">
-<img src="img/logo_LASTIG.png"height="50em">
-<img src="img/logo_sfpt_Bleuclair.jpg"height="50em">
-</center>
 </div>
 
 
 
+
+
+
+<div class="col-sm-5">
+<table class="table table-borderless ">
+    <thead>
+<tr>
+<th>Par le RER A <img src="img/RER_A.png" height="20em"> </th>
+<th>Par l’autoroute A4</th>
+</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+Directions <br>
+<b>Marne-la-Vallée</b> depuis Paris <br>
+ou<br>
+<b>Cergy/Poissy/St-Germain-en-Laye</b> depuis Marne-la-Vallée <br>
+Descendre à station <b>Noisy-Champs</b>,<br>
+ sortie <b>n°3</b> Cité Descartes (tête de train)
+</td>
+
+<td>
+<img src="img/routeA4.png" height="100em">
+</td>
+
+</tr>
+</tbody>
+</table>
+
+</div>
+
+    
+
+</div> <!-- fin row-->
+</div>
+
+
+<div class="container-fluid p-2 bg-dark text-white">
+	<center>
+<img src="img/logoENSG_small.jpg" height="50em">
+<img src="img/logo_LASTIG.png"height="50em">
+<img src="img/logo_sfpt_Bleuclair.jpg"height="50em">
+
+		<p>LASTIG SUMMER SCHOOL 2025 
+		· Photogrammetry · Remote-Sensing · GIS · </p>
+		
+</center>
+</div>
 
 
 </body>
